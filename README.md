@@ -1,1 +1,2 @@
-# São Exercicio Básico de Javascript - Apresentado no Curso Apenas
+# São Exercicios Básicos de Javascript 
+
