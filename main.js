@@ -1,6 +1,26 @@
 
 
+// InnerHTML - Injeta um HTML - exemplo abaixo - Paragrafo;
+//getElementById - Ele pega/Puxa um elemento pelo seu ID, puxando qualquer informação imposta neste ID;
+function cliclou(){
+  //  alert("Tudo clico mesmo?");
+    document.getElementById("agradecimento").innerHTML = " ♥ <b>Felizmente é apenas uma Pagina feita por Iniciante ♥ ► Linkedin ♫</b>";
+    console.log(document)
+}
 
+function redirecionar(){
+    window.open("https://www.linkedin.com/in/lucasaguiardev/"); //Uma forma de redirecionamento :3
+    window.location.href = "https://www.linkedin.com/in/lucasaguiardev/"; //Outra foram de redirecionamento :)
+
+}
+
+function trocar(){
+    document.getElementById("mouse").innerHTML = "<b>OMOSHIROI ♥</b>";
+}
+
+
+/*
+// Uma função que valida a Idade do úsuario - Caso tenha 18 True - Verdadeiro - Caso seja menor - False - Flaso.
 function validaIdade(idade){
     var validar;
     if (idade >= 18){
@@ -16,6 +36,9 @@ function validaIdade(idade){
 
 var idade = prompt("Qual é sua idade amigão? ");
 console.log(validaIdade(idade));
+*/
+
+
 
 /* 
 // Ele seta palavras especifica e susbtitiu com novo_nome - Função Troca String
